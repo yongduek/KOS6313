@@ -23,4 +23,5 @@ Statistical Methods in Python for KOS6313
     ```
     pip install pandas matplotlib seaborn
     ```
-6. 
+5. create a Jupyter notebook in vscode (`myNotebook.ipynb`)
+   - `hello world` will install necessary things
