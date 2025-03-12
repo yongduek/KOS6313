@@ -5,10 +5,10 @@ Statistical Methods in Python for KOS6313
 1. Install Python (`python.org`)
    - Mac computers do have python installed. Do not try to install a new version of python.
    - Anaconda environment will not be used.
-3. Install `Visual Studio Code`
+1. Install `Visual Studio Code`
    - Install `Python Extension` in `vscode`
    - Hello World
-5. Virtual Environment
+1. Virtual Environment
     ```
     python -m venv .venv
     .venv/Scripts/activate
@@ -18,7 +18,8 @@ Statistical Methods in Python for KOS6313
     ```
     pip install pandas matplotlib seaborn
     ```
-5. create a Jupyter notebook in vscode (`myNotebook.ipynb`)
+1. create a Jupyter notebook in vscode (`myNotebook.ipynb`)
+   - choose proper kernel: `.venv/python`
    - `hello world` will install necessary things
 
 3. Python-Stan Interface (this takes time)
