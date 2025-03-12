@@ -14,14 +14,20 @@ Statistical Methods in Python for KOS6313
     .venv/Scripts/activate
     python -m pip install --upgrade pip
     ```
-3. Python-Stan Interface (this takes time)
-    ```
-    pip install cmdstanpy
-    python -m cmdstanpy.install_cmdstan
-    ```
 4. Install `pandas`, `matplotlib`, `seaborn`
     ```
     pip install pandas matplotlib seaborn
     ```
 5. create a Jupyter notebook in vscode (`myNotebook.ipynb`)
    - `hello world` will install necessary things
+
+3. Python-Stan Interface (this takes time)
+    ```
+    pip install cmdstanpy
+    python -m cmdstanpy.install_cmdstan
+    ```
+    - You need a C++ compiler; 
+    - Use WSL (better than MinGW32) in Windows 10/11
+        - Install Ubuntu 22.04: 
+        - run `wsl --install -d Ubuntu-22.04` in PowerShell(Admin)
+    - Mac users install `xcode`
