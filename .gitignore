@@ -173,3 +173,5 @@ cython_debug/
 #
 compiled
 compiled/
+stan_files/*
+stan_files/bernoulli.exe
